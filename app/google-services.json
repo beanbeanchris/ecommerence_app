@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "646195337465",
+    "project_id": "ecommerence-app-eb7f3",
+    "storage_bucket": "ecommerence-app-eb7f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646195337465:android:6f91d3cf56428432bd2a28",
+        "android_client_info": {
+          "package_name": "edu.gatech.seclass.ecommerence_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdlmcfgj575HyTlk-pZXTfIkRvmMu233Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
