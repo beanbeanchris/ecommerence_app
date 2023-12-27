@@ -3,10 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.1301715438950555" />
+        <entry key="app/src/main/res/drawable-v24/ellips.xml" value="0.117" />
+        <entry key="app/src/main/res/drawable/blue_background.xml" value="0.149" />
         <entry key="app/src/main/res/layout/activity_login_register.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_shopping.xml" value="0.2078125" />
         <entry key="app/src/main/res/layout/fragment_account_options.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_introduction.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.67" />
         <entry key="app/src/main/res/layout/fragment_register.xml" value="0.1" />
       </map>
     </option>
