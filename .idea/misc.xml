@@ -8,7 +8,7 @@
         <entry key="app/src/main/res/drawable/blue_background.xml" value="0.149" />
         <entry key="app/src/main/res/layout/activity_login_register.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_shopping.xml" value="0.2078125" />
-        <entry key="app/src/main/res/layout/fragment_account_options.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_account_options.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_introduction.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_register.xml" value="0.1" />
