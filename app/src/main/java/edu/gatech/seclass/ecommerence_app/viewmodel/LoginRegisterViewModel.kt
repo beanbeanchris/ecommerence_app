@@ -11,14 +11,18 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import javax.inject.Inject
 
 @HiltViewModel
-
+// LoginRegisterViewModel extends ViewModel
+// FirebaseAuth instance is injected
 class LoginRegisterViewModel @Inject constructor(
     private val firebaseAuth: FirebaseAuth
 ): ViewModel() {
 
+    // _register: contains state of registration action (mutable)
+    // register: immutable view of _register
     private val _register = MutableStateFlow<Resource<FirebaseUser>>(Resource.Loading())
     val register: Flow<Resource<FirebaseUser>> = _register
 
+    // function attempting to create a new user account with firebaseAuth's func createUserWithEmailAndPassword
     fun createAccountWithEmailAndPassword(user: User, password: String){
         firebaseAuth.createUserWithEmailAndPassword(user.email, password)
             .addOnSuccessListener {
