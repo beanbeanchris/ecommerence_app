@@ -4,6 +4,7 @@
     package="edu.gatech.seclass.ecommerence_app">
 
     <application
+        android:name=".EcommApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"

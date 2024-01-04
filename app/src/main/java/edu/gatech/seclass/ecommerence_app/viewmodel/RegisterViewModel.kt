@@ -13,7 +13,7 @@ import javax.inject.Inject
 @HiltViewModel
 // LoginRegisterViewModel extends ViewModel
 // FirebaseAuth instance is injected
-class LoginRegisterViewModel @Inject constructor(
+class RegisterViewModel @Inject constructor(
     private val firebaseAuth: FirebaseAuth
 ): ViewModel() {
 

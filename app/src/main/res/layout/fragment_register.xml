@@ -58,7 +58,7 @@
             />
 
         <EditText
-            android:id="@+id/edFirstName"
+            android:id="@+id/edFirstNameRegister"
             android:layout_width="0dp"
             android:layout_height="@dimen/edittextHeight"
             app:layout_constraintStart_toStartOf="@id/guidelineLoginLeft"
@@ -70,12 +70,12 @@
             android:layout_marginTop="@dimen/editTextSpacing"/>
 
         <EditText
-            android:id="@+id/edLastName"
+            android:id="@+id/edLastNameRegister"
             android:layout_width="0dp"
             android:layout_height="@dimen/edittextHeight"
             app:layout_constraintStart_toStartOf="@id/guidelineLoginLeft"
             app:layout_constraintEnd_toEndOf="@id/guidelineLoginRight"
-            app:layout_constraintTop_toBottomOf="@id/edFirstName"
+            app:layout_constraintTop_toBottomOf="@id/edFirstNameRegister"
             style="@style/editText"
             android:hint="Last Name"
             android:inputType="textPersonName"
@@ -88,7 +88,7 @@
             android:layout_height="@dimen/edittextHeight"
             app:layout_constraintStart_toStartOf="@id/guidelineLoginLeft"
             app:layout_constraintEnd_toEndOf="@id/guidelineLoginRight"
-            app:layout_constraintTop_toBottomOf="@id/edLastName"
+            app:layout_constraintTop_toBottomOf="@id/edLastNameRegister"
             style="@style/editText"
             android:hint="Email"
             android:inputType="textEmailAddress"
@@ -147,7 +147,7 @@
             app:layout_constraintEnd_toEndOf="@id/googleRegister"
             android:textSize="@dimen/h2TextSize"/>
 
-        <androidx.appcompat.widget.AppCompatButton
+        <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
             android:id="@+id/buttonRegisterRegister"
             android:layout_width="0dp"
             android:layout_height="@dimen/smallButtonHeight"
