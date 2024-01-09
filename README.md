@@ -4,4 +4,4 @@ Login Page 12/27/23
 
 App Graph 1/8/24
 
-![App Graph Screenshot] (https://drive.google.com/uc?export=view&id=1MlTwmNzxovqMMiYxZh0OHgiw-Bper_C9)
+![App Graph Screenshot](https://drive.google.com/uc?export=view&id=1MlTwmNzxovqMMiYxZh0OHgiw-Bper_C9)
