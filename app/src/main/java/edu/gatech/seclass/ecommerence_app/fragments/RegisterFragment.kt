@@ -70,6 +70,7 @@ class RegisterFragment: Fragment() {
                         Log.e(TAG, it.message.toString())
                         binding.buttonRegisterRegister.revertAnimation()
                     }
+                    else -> Unit
 
                 }
             }

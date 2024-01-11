@@ -8,6 +8,7 @@ import edu.gatech.seclass.ecommerence_app.data.User
 import edu.gatech.seclass.ecommerence_app.util.Resource
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.runBlocking
 import javax.inject.Inject
 
 @HiltViewModel
@@ -19,11 +20,14 @@ class RegisterViewModel @Inject constructor(
 
     // _register: contains state of registration action (mutable)
     // register: immutable view of _register
-    private val _register = MutableStateFlow<Resource<FirebaseUser>>(Resource.Loading())
+    private val _register = MutableStateFlow<Resource<FirebaseUser>>(Resource.Unspecified())
     val register: Flow<Resource<FirebaseUser>> = _register
 
     // function attempting to create a new user account with firebaseAuth's func createUserWithEmailAndPassword
     fun createAccountWithEmailAndPassword(user: User, password: String){
+        runBlocking {
+            _register.emit(Resource.Loading())
+        }
         firebaseAuth.createUserWithEmailAndPassword(user.email, password)
             .addOnSuccessListener {
                 it.user?.let {
